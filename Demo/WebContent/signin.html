@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+#signinform {
+ 
+ border: 4px solid black;
+ background-color:DodgerBlue;
+ margin: 100px 500px 100px 500px;
+ }
+ #form {
+ 
+ border-top: 4px solid black;
+ background-color:DodgerBlue;
+ /*margin: 100px 500px 100px 500px;*/
+ padding:10px;
+ }
+ </style>
+</head>
+<body>
+<div id ="signinform">
+LOGIN
+<div id="form">
+<form action ="signedin" >
+<label for="FirstName">FirstName: </label><br>
+<input type="text" name="FirstName" required><br>
+<label for="LastName">LastName: </label><br>
+<input type="text" name="LastName"  required><br>
+<label for="UserName">UserName: </label><br>
+<input type="text" name="UserName" required><br>
+<label for="email">email: </label><br>
+<input type="email" name="email" required><br>
+<label for="DateOfBirth">DateOfBirth: </label><br>
+<input type="Date" name="DateOfBirth" min="1900-01-01" max="2020-01-01" required><br>
+<label for ="password">Password: </label><br>
+<input type="password" name="password" minlength="8"required><br>
+<label for ="ConfirmPassword">ConfirmPassword: </label><br>
+<input type="password" name="ConfirmPassword" minlength="8"required><br>
+<input type="submit"  value="Register" >
+</div>
+</form>
+</div>
+<script>
+</script>
+</body>
+</html>
